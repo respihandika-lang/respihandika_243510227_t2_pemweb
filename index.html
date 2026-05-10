@@ -1,0 +1,423 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio Premium</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: #e2e8f0;
+}
+
+/* NAVBAR */
+header {
+    position: sticky;
+    top: 0;
+    background: rgba(15, 23, 42, 0.8);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+
+header h1 {
+    color: #38bdf8;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e2e8f0;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* HERO */
+#hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#hero h2 {
+    font-size: 40px;
+}
+
+#hero span {
+    color: #38bdf8;
+}
+
+#hero img {
+    margin-top: 20px;
+    border-radius: 50%;
+    border: 4px solid #38bdf8;
+    width: 150px;
+}
+
+/* SECTION */
+section {
+    padding: 60px;
+}
+
+/* ABOUT */
+#about {
+    background: #1e293b;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+/* PROJECT */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(56,189,248,0.3);
+}
+
+/* EDUCATION */
+#education {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+}
+
+th {
+    background: #38bdf8;
+    color: #0f172a;
+}
+
+tr:nth-child(even) {
+    background: #1e293b;
+}
+
+/* CONTACT */
+#contact {
+    text-align: center;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+button {
+    padding: 10px 20px;
+    background: #38bdf8;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+}
+
+/* ANIMASI */
+.fade {
+    animation: fadeIn 1.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(20px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+</style>
+</head>
+
+<body><!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio Premium</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: #e2e8f0;
+}
+
+/* NAVBAR */
+header {
+    position: sticky;
+    top: 0;
+    background: rgba(15, 23, 42, 0.8);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+
+header h1 {
+    color: #38bdf8;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e2e8f0;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* HERO */
+#hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#hero h2 {
+    font-size: 40px;
+}
+
+#hero span {
+    color: #38bdf8;
+}
+
+#hero img {
+    margin-top: 20px;
+    border-radius: 50%;
+    border: 4px solid #38bdf8;
+    width: 150px;
+}
+
+/* SECTION */
+section {
+    padding: 60px;
+}
+
+/* ABOUT */
+#about {
+    background: #1e293b;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+/* PROJECT */
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(56,189,248,0.3);
+}
+
+/* EDUCATION */
+#education {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+}
+
+th {
+    background: #38bdf8;
+    color: #0f172a;
+}
+
+tr:nth-child(even) {
+    background: #1e293b;
+}
+
+/* CONTACT */
+#contact {
+    text-align: center;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+button {
+    padding: 10px 20px;
+    background: #38bdf8;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+}
+
+/* ANIMASI */
+.fade {
+    animation: fadeIn 1.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0; transform: translateY(20px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Respi.finora</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#project">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section id="hero" class="fade">
+    <h2>Halo, Saya <span>Respihandika</span></h2>
+    <p>Web Developer | Mobile Enthusiast</p>
+    <img src="https://i.pinimg.com/736x/69/66/17/696617178cc2fa132e656255251cbe86.jpg">
+</section>
+
+<section id="about" class="fade">
+    <h2>Tentang Saya</h2>
+    <p>Saya adalah mahasiswa teknik informatika yang fokus pada pengembangan web modern dan aplikasi mobile.</p>
+</section>
+
+<section id="project">
+    <h2>Projects</h2>
+    <div class="projects">
+        <div class="card">
+            <h3>Website Portfolio</h3>
+            <p>Website pribadi menggunakan HTML & CSS.</p>
+        </div>
+        <div class="card">
+            <h3>Aplikasi Mobile</h3>
+            <p>Aplikasi sederhana berbasis Android.</p>
+        </div>
+        <div class="card">
+            <h3>Landing Page</h3>
+            <p>Desain landing page modern.</p>
+        </div>
+    </div>
+</section>
+
+<section id="education">
+    <h2>Riwayat Pendidikan</h2>
+    <table>
+        <tr>
+            <th>Tahun</th>
+            <th>Institusi</th>
+            <th>Jurusan</th>
+        </tr>
+        <tr>
+            <td>2024 - Sekarang</td>
+            <td>Universitas Islam Riau</td>
+            <td>Teknik Informatika</td>
+        </tr>
+        <tr>
+            <td>2021 - 2024</td>
+            <td>SMA Negeri</td>
+            <td>IPA</td>
+        </tr>
+    </table>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+    <input type="text" placeholder="Nama">
+    <input type="email" placeholder="Email">
+    <textarea rows="4" placeholder="Pesan"></textarea><br>
+    <button>Kirim</button>
+</section>
+
+<footer>
+    <p>&copy; 2026 Respi. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
